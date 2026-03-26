@@ -113,7 +113,8 @@ class MainActivity : AppCompatActivity(), ContactAdapter.OnContactActionListener
             filteredList.addAll(contactList)
         } else {
             for (contact in contactList) {
-                if (contact.name.lowercase(Locale.getDefault()).contains(lowerCaseQuery)) {
+                if (contact.name.lowercase(Locale.getDefault()).contains(lowerCaseQuery) ||
+                    contact.phone.contains(lowerCaseQuery)) {
                     filteredList.add(contact)
                 }
             }
