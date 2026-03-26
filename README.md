@@ -13,12 +13,7 @@ This repository contains all assigned tasks and practical work for the Mobile Ap
 * Lab work and practical implementations
 * Mobile application source code
 * Project files
-* Documentation (if required)
 
-## 🎯 Purpose
-* To maintain a structured record of all MAD course assignments
-* To track progress throughout the semester
-* To submit tasks as per course guidelines
 
 ## 📲 APK Location
 You can find the generated APK file in the following directory:
