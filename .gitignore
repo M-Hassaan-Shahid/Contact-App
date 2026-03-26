@@ -1,0 +1,66 @@
+# Gradle
+.gradle/
+/build/
+
+# local configuration
+local.properties
+
+# log files
+*.log
+
+# Android Studio
+/.idea/
+*.iml
+*.hprof
+
+# Android generated folders
+app/build/
+**/build/
+
+# Kotlin daemon
+**/.kotlin_build/
+
+# Keystore files
+**/*.jks
+**/*.keystore
+
+# Google Services config
+google-services.json
+
+# NDK
+obj/
+
+# Misc
+.DS_Store
+*.swp
+*~
+
+# Android Lint
+lint/intermediate/
+
+# IntelliJ
+out/
+
+# JetBrains Rider
+.idea/
+
+# Support for Mac
+**/.DS_Store
+
+# Eclipse
+.settings/
+.project
+
+# #[optional] Local env files
+.env
+
+# Unit test outputs
+*/.caches
+
+# Flutter, if any
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache
+.pub
+build/
